@@ -37,6 +37,7 @@ services:
          registry_external_url 'http://registry'
          gitlab_rails['registry_enabled']=true
          gitlab_rails['registry_host']='registry'
+         gitlab_rails['packages_enabled']=true
 #        gitlab_rails['smtp_enable']=true
 #        gitlab_rails['gitlab_email_from']='gitlab@example.com'
 #        gitlab_rails['smtp_domain']='example.com'
